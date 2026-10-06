@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <section class="header">
+        <div id="weather">
+        <h2 align="left">Today's Weather Forecast</h2>
+        <button id="getLocbtn">Allow Location Access</button>
+        </div>
+        <hr>
+        <div id="weatherInfo">
+            
+        </div>
+    </section>
+    <section class="main">
+        <h1>My To-Do List</h1>
+        <section class="Add">
+        
+           <input type="text" id="addtask" placeholder="Enter Task to Add">
+            <button id="tb"> Add a task </button>
+        </section>
+        <section class="myTasks">
+            <h2>My Tasks:</h2>
+            <ul id="Tasklist" ></ul>
+        </section>
+        <footer id="count">
+            Total Tasks: 0 | Completed Tasks: 0 | Remaining Tasks: 0
+        </footer>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
